@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rurH0QpVG0GM5R-9cvDhFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bancanet.banamex.com/apps/dashboardnew" DesignTimeRectangle="712, 800, 236, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='No por ahora' tag='DIV' /&gt;" Guid="90194f49-1c67-4736-b412-2a171b776756" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='1790436763823' title='BancaNet | Banamex.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a8633cb4ebe715273528936279f9da81.jpg" xmlns="">0mhoKJMT2a0K9HKpmcmtrzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

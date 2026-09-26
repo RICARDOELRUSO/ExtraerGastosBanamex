@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YHtNNcekSk2-T75oSLxllg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bancanet.banamex.com/MXGCB/apps/logout/flow.action" DesignTimeRectangle="1789, 63, 45, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='BancaNet | Banamex.com - Microsoft Edge - UIPATH' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Settings and more (Alt+F)' role='push button' /&gt;" Guid="42494c9f-0698-4963-8173-dae42d192e5d" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='BancaNet | Banamex.com and 11 more pages - UIPATH - Microsoft​ E*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c1f7a8ed9239d130698f9b9eb5c2477b.jpg" xmlns="">0OEswzBeHRUeMKMuhsP7Lig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

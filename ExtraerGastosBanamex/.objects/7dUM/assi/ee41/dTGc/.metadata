@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Continuar",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "dTGclvEbw0-FUrdY4z2fcg",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/dTGclvEbw0-FUrdY4z2fcg",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/ee411Ee26UCL1GWwqMBrgQ",
+  "Created": "2026-09-26T15:47:56.3731139Z",
+  "Updated": "2026-09-26T15:47:56.3731139Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

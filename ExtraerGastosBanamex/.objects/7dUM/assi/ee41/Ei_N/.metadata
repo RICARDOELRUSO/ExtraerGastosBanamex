@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Costco Banamex - CostoA…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Ei_NydwJsUijv8Gwl7Eksg",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/Ei_NydwJsUijv8Gwl7Eksg",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/ee411Ee26UCL1GWwqMBrgQ",
+  "Created": "2026-09-26T15:45:07.6346444Z",
+  "Updated": "2026-09-26T15:45:07.6346444Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

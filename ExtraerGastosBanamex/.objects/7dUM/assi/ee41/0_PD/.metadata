@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Exportar",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "0_PDPP-C5kaA5C1pDPhKsA",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/0_PDPP-C5kaA5C1pDPhKsA",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/ee411Ee26UCL1GWwqMBrgQ",
+  "Created": "2026-09-26T15:45:58.4584625Z",
+  "Updated": "2026-09-26T15:45:58.4584625Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

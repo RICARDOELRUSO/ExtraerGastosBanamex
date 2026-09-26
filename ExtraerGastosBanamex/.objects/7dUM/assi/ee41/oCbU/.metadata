@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Aceptar",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oCbUPpS62kaEB1PXxQ21Wg",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/oCbUPpS62kaEB1PXxQ21Wg",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/ee411Ee26UCL1GWwqMBrgQ",
+  "Created": "2026-09-26T15:49:01.591333Z",
+  "Updated": "2026-09-26T15:49:01.591333Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
