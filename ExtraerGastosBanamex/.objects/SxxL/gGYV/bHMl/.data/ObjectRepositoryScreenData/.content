@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="K1iNMNuh30eel28VMigxTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1030" BrowserType="Edge" Selector="&lt;html app='msedge.exe' title='*WhatsApp*' url='https://web.whatsapp.com/*' /&gt;" Url="https://web.whatsapp.com/" Version="V3">
+      <imageRef attrName="InformativeScreenshot" originalValue="afa0eaf358fa72f63e5a9015cd574193.jpg" xmlns="">0NO8i9IlbgUOIWmok4q6LsA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

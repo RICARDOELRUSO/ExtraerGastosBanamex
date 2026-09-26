@@ -1,0 +1,15 @@
+﻿# UiPath Studio local/generated artifacts — rebuilt automatically, not source
+**/.local/
+**/.storage/
+userProfile/
+*.nupkg
+*.zip
+
+################################################################################
+# Added by UiPath Studio
+# Prevent caching and local artifacts from being committed
+################################################################################
+.local
+################################################################################
+# End of UiPath Studio common ignores
+################################################################################

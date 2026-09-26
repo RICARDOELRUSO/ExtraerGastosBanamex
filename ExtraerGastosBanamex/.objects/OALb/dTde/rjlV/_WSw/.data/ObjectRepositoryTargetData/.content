@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yOh4tGCv50mkP0zKwZRLWg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="694, 395, 128, 31" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Cuadrícula' /&gt;&lt;uia automationid='F1' cls='XLSpreadsheetCell' name='F1' tableRow='1' /&gt;" Guid="8faeb1f3-dd81-4991-bd67-66a26b078059" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='excel (23).xlsx - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="672e4bf2ecb6be856e7789dbe9113627.jpg" xmlns="">0NQt9e5ac806KqTMatBq9tQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

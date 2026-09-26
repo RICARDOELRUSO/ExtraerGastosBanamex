@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Message Box",
+  "Description": "The message compose text box in the open WhatsApp conversation with Valeria Artemyeva.",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "LpP3VAaY3U2aBzHRlUvU9w",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/LpP3VAaY3U2aBzHRlUvU9w",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/bHMlp2SE3UOakyASs3ZQAA",
+  "Created": "2026-09-05T18:32:11.0827019Z",
+  "Updated": "2026-09-05T18:32:11.0827019Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

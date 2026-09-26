@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge: BancaNet | Banamex.com app",
+  "Type": "App",
+  "Id": "7dUMAPg3_kCwJwCoEmhbVQ",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/7dUMAPg3_kCwJwCoEmhbVQ",
+  "Created": "2026-09-26T05:08:26.101176Z",
+  "Updated": "2026-09-26T05:08:26.101176Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

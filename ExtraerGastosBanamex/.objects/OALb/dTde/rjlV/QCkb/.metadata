@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TODO Indicate — Click 'Reemplazar todos' (Replace All)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "QCkbHL9kHUK31rJ-r09aTw",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/QCkbHL9kHUK31rJ-r09aTw",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/rjlVg3b5LkygtM06VwL4uA",
+  "Created": "2026-09-05T18:06:34.1244915Z",
+  "Updated": "2026-09-05T18:06:34.1244915Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Con Disponible BanamexC…",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "TfC_k6PuLUe-BTtogFLXxQ",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/TfC_k6PuLUe-BTtogFLXxQ",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/LSs9mNnvLkiLtu1IOab7SQ",
+  "Created": "2026-09-26T05:08:26.6754746Z",
+  "Updated": "2026-09-26T05:08:26.6754746Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

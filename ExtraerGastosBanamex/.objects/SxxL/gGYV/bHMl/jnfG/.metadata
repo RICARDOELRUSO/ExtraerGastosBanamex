@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Send Button",
+  "Description": "The Send button in the WhatsApp Web message compose bar.",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "jnfGaysR40GJe4YGSl1zyg",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/jnfGaysR40GJe4YGSl1zyg",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/bHMlp2SE3UOakyASs3ZQAA",
+  "Created": "2026-09-05T18:33:21.2511942Z",
+  "Updated": "2026-09-05T18:33:21.2511942Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

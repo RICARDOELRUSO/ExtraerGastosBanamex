@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XpaTyFUWikudcnXpDZk6Qg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="438, 364, 128, 31" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='D' role='Encabezado de columna' /&gt;" Guid="9fa459e7-9ae1-4527-beda-8de387e15329" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='*xlsx*Excel*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ec9eb76f856ded5949e7e743e351e55b.jpg" xmlns="">0-uGHCNEFG06JWkFnCNHCzw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

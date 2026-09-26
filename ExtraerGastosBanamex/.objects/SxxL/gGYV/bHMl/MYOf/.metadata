@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Valeria Artemyeva Chat Row",
+  "Description": "The chat-list row for Valeria Artemyeva in the WhatsApp Web sidebar, opens her conversation.",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "MYOfl6rQFkm2pgdFPE7Cgw",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/MYOfl6rQFkm2pgdFPE7Cgw",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/bHMlp2SE3UOakyASs3ZQAA",
+  "Created": "2026-09-05T18:32:10.8599377Z",
+  "Updated": "2026-09-05T18:32:10.8599377Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

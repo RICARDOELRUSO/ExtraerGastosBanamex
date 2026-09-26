@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FWsIXwVSskCWpErz0wjCmQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="bancanet.banamex.com/MXGCB/JPS/portal/Index.do" DesignTimeRectangle="461, 516, 275, 48" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="438a4b43-6ec0-4a59-9e33-b855fbc08ed9" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='1790395445598' title='BancaNet | Banamex.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="b075631990b70a77436f8358eba67f40.jpg" xmlns="">0boupJdkq6E2MDxRc2TW_RQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2LP_S0CUsUWwv2vSN61oeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1344, 173, 60, 36" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='SelectMenuExcel' name='Buscar y seleccionar' /&gt;" Guid="b9814090-0fe6-4758-83f1-f00f9e626cca" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='*xlsx*Excel*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4bedf30c3cad49a544bd52352773f615.jpg" xmlns="">0NGaWfx8nL0SnYDfbMhyHbA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

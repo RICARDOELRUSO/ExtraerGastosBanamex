@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EVycxl91nECtmSWI5Zjb2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1214, 124, 157, 39" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Barra de herramientas Business Bar' /&gt;&lt;uia cls='NetUIElement' name='Vista protegida' /&gt;&lt;uia cls='NetUISimpleButton' name='Habilitar edición' /&gt;" Guid="962dbe0a-8839-457d-9bbf-0121859bb55b" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='excel (17).xlsx  -  Vista protegida - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="84919f8c10bbe42a81572618ddeadc58.jpg" xmlns="">0-19_Jl024UqUTHm8K-pFJg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

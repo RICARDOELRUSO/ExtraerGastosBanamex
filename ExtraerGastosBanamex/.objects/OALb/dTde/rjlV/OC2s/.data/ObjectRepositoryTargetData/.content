@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Lv4S8gI-DEmyS1GP3BO6zw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="339, 278, 1592, 86" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='EXCEL&amp;lt;' /&gt;" Guid="d9659990-201e-47ee-ba40-fde61f9a716c" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='excel (23).xlsx - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ea8adac2b726bc00abe60d0e89e72f31.jpg" xmlns="">0esVeN5C_VUCcNpnrZHgA0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

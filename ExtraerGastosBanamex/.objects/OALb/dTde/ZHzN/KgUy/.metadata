@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Total Cell F1",
+  "Description": "Empty cell F1 in the Movimientos sheet, used to compute and hold the SUM formula for column D (Compras).",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "KgUyKi54x0SwT1o2jvshxA",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/KgUyKi54x0SwT1o2jvshxA",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/ZHzNzW-rAESHk4SyoLX7_w",
+  "Created": "2026-09-05T18:26:49.8743894Z",
+  "Updated": "2026-09-05T18:26:49.8743894Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

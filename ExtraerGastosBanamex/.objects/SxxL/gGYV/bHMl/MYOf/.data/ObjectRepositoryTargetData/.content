@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0rS0-vGnVUu2YCOxI__Vtg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="245, 977, 567, 36" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl data-testid='chat-list' tag='DIV' /&gt;&lt;webctrl aria-label='Chat list' aria-role='grid' tag='DIV' /&gt;&lt;webctrl aria-role='gridcell' idx='8' parentid='pane-side' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl data-testid='chat-list' tag='DIV' matching:data-testid='fuzzy' fuzzylevel:data-testid='0.0' /&gt;&lt;webctrl aria-label='Chat list' aria-role='grid' tag='DIV' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' /&gt;&lt;webctrl aria-role='gridcell' matching:aria-role='fuzzy' parentid='pane-side' tag='DIV' fuzzylevel:aria-role='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;" Guid="40fc1a9a-d7c1-4567-823b-b9d6a7dc42e6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*WhatsApp*' url='https://web.whatsapp.com/*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="245, 977, 193, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Valeria Artemyeva ' parentid='pane-side' tag='SPAN' visibleinnertext='Valeria Artemyeva' type='' class='x1iyjqo2 x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft x1rg5ohu x1jchvi3 xjb2p0i xo1l8bm x17mssa0 x1ic7a3i xnpuxes' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:visibleinnertext='fuzzy' fuzzylevel:visibleinnertext='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:text='Valeria Artemyeva' /&gt;" Guid="cc6f2263-3a86-4641-94a8-b29a2253c4dc" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="51069e72a0d9bd45a6e04ca693e05a80.jpg" xmlns="">0tADdC4F5UEmhJGWP0I7z_A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TODO Indicate — Type '$' into 'Buscar' (Find what) field",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "lS7vGKMO3UuoG1tsLFgYfg",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/lS7vGKMO3UuoG1tsLFgYfg",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/rjlVg3b5LkygtM06VwL4uA",
+  "Created": "2026-09-05T18:04:42.8695095Z",
+  "Updated": "2026-09-05T18:04:42.8695095Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

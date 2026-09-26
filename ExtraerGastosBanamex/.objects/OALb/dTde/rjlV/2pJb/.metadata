@@ -1,0 +1,13 @@
+﻿{
+  "Name": "TODO Indicate — Click 'Habilitar edición' (file opens in Protected View since it was downloaded from the internet)",
+  "Type": "Element",
+  "Id": "2pJbvFWzSUKhb2cxQ5J0Qw",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/2pJbvFWzSUKhb2cxQ5J0Qw",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/rjlVg3b5LkygtM06VwL4uA",
+  "Created": "2026-09-07T04:59:14.2068095Z",
+  "Updated": "2026-09-07T04:59:14.2068095Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

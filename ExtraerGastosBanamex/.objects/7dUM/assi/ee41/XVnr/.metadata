@@ -1,0 +1,14 @@
+﻿{
+  "Name": "BancaNet® Aquí. Para ti…",
+  "Type": "Element",
+  "TaxonomyType": "Container",
+  "Id": "XVnrJSbWhE-pHqa0ARWXJQ",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/XVnrJSbWhE-pHqa0ARWXJQ",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/ee411Ee26UCL1GWwqMBrgQ",
+  "Created": "2026-09-26T05:08:26.2390281Z",
+  "Updated": "2026-09-26T05:08:26.2390281Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

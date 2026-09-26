@@ -1,0 +1,48 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "ExtraerGastosBanamex",
+    "kind": "process",
+    "type": "process",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "c873b17c-738f-4ba6-a2b6-2d7a850d9555",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "ExtraerGastosBanamex",
+        "kind": "package"
+      }
+    ],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Process",
+      "name": "ExtraerGastosBanamex",
+      "package": {
+        "key": "3935a94d-5249-44d1-aa1b-412610c6ba7f"
+      },
+      "jobPriority": "Medium",
+      "hiddenForAttendedUser": false,
+      "alwaysRunning": false,
+      "autoStartProcess": false,
+      "jobRecording": "Disabled",
+      "targetFrameworkValue": "Portable",
+      "duration": 40,
+      "frequency": 500,
+      "quality": 100,
+      "remoteControlAccess": "None",
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180,
+      "tags": []
+    },
+    "locks": [],
+    "key": "51732091-6c3c-4c94-96fd-885fed0ce7df"
+  }
+}

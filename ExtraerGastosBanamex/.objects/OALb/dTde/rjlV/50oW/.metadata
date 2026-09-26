@@ -1,0 +1,13 @@
+﻿{
+  "Name": "TODO Indicate — Click 'Aceptar' (dismiss replacement-count popup)",
+  "Type": "Element",
+  "Id": "50oW5pGlWka8gtpm6B-Oxw",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/50oW5pGlWka8gtpm6B-Oxw",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/rjlVg3b5LkygtM06VwL4uA",
+  "Created": "2026-09-05T18:07:26.5799167Z",
+  "Updated": "2026-09-05T18:07:26.5799167Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

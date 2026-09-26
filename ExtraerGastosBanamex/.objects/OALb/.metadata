@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Excel Expense Report_App",
+  "Type": "App",
+  "Id": "OALb-nSH7U2A-nSKqetDBA",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/OALb-nSH7U2A-nSKqetDBA",
+  "Created": "2026-09-05T05:36:38.8035128Z",
+  "Updated": "2026-09-05T05:36:38.8035128Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

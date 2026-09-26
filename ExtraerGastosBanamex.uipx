@@ -1,0 +1,12 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "95504f08-7fe2-4cec-b7bc-fdc54cf36475",
+  "Projects": [
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "ExtraerGastosBanamex/project.uiproj",
+      "Id": "c873b17c-738f-4ba6-a2b6-2d7a850d9555"
+    }
+  ]
+}

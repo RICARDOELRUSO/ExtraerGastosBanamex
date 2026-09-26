@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Column D Header",
+  "Description": "The column header for column D in the Movimientos sheet grid, used to select the whole column of purchase amounts.",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "FP5JRfTJEUmkJD7yMfrF5w",
+  "Reference": "T_zKmh_Q10Wf4cjN8IlDMA/FP5JRfTJEUmkJD7yMfrF5w",
+  "ParentRef": "T_zKmh_Q10Wf4cjN8IlDMA/ZHzNzW-rAESHk4SyoLX7_w",
+  "Created": "2026-09-05T05:37:43.4073495Z",
+  "Updated": "2026-09-05T05:37:43.4073495Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

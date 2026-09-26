@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nlMz0AFV0keGan0jip66bw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1818, 969, 60, 60" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Send' class='*html-button*' tag='BUTTON' /&gt;" Guid="7650d609-acad-48a0-91fa-23e8d247f7a6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*WhatsApp*' url='https://web.whatsapp.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c295b9df1cc359ca9f12c0e26e0a1347.jpg" xmlns="">0mP14q2vsNUuQbXVUwQya8w</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

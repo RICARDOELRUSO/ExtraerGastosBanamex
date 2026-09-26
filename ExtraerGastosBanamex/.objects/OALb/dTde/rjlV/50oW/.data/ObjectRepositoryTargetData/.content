@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DN1Aj6TKNU67qb_otbXlCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="419, 195, 96, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='2' cls='NetUIButton' name='Aceptar' /&gt;" Guid="001a22ff-f407-41b9-aed8-799461a2de44" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='NUIDialog' title='Microsoft Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fc058ad1b84708a841913e3ea4da17ba.jpg" xmlns="">0vXALnLbA_0C2gXLMsskHOw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

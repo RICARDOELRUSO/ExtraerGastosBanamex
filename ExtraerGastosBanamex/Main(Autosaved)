@@ -1,0 +1,520 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Credentials.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Credentials.Activities</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="865,8739" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="totalCompras" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: Banamex (opens https://www.banamex.com if not already open)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="516,430" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="IfNotOpen" ScopeGuid="d8776930-0124-4223-9102-0d0f918d5c73" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="514,174" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGoToUrl DisplayName="Go To URL: bancanet.banamex.com" sap:VirtualizedContainerService.HintSize="480,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="d8776930-0124-4223-9102-0d0f918d5c73" Url="https://bancanet.banamex.com" Version="V5" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-2, -1088, 1936, 1048" Arguments="https://bancanet.banamex.com" BrowserType="Edge" FilePath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" IconBase64="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" InformativeScreenshot="897ed9a325b5ecfe59d8fafe442570e3.jpg" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='*Banamex*' /&gt;" Url="https://bancanet.banamex.com" Version="V3">
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <Delay DisplayName="Delay: let browser extension register the new tab" Duration="[TimeSpan.FromSeconds(10)]" sap:VirtualizedContainerService.HintSize="516,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: *Banamex*" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="516,4472" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" OpenMode="Never" ScopeGuid="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,4268" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="bancaNetUser" />
+              <Variable x:TypeArguments="ss:SecureString" Name="bancaNetPass" />
+              <Variable x:TypeArguments="x:Boolean" Name="bancaNetCredFound" />
+              <Variable x:TypeArguments="sd:Image" Name="diagScreenshot" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="BancaNetBanamex" CacheStrategy="None" DisplayName="Get Credential: BancaNetBanamex (Orchestrator asset)" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[bancaNetPass]" Username="[bancaNetUser]" />
+            <ui:SaveImage DisplayName="Save Screenshot: banamex_click_fail.png (diagnostic)" FileName="[System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), &quot;banamex_click_fail.png&quot;)]" sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[diagScreenshot]" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Chrome Legacy Window'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_25" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="" DesignTimeRectangle="13, 209, 1910, 827" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='*Banamex*' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='*Banamex*' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Chrome Legacy Window' /&gt;" Guid="2526825c-cc4a-4e98-ac4e-1b85e2da8fa9" InformativeScreenshot="155ce6f5b15146620aa8b928a98f25f8.jpg" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/MXGCB/JPS/portal/Index.do" DesignTimeRectangle="13, 209, 1891, 827" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ui-widget-overlay' parentid='preSignonForm' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='ui-widget-overlay' parentid='preSignonForm' tag='DIV' type='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="87077b77-bae0-4f2e-8fef-4e67c8e4075c" InformativeScreenshot="696b3f723d76a5cfa095d17085b023f1.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Entendido'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/MXGCB/JPS/portal/Index.do" DesignTimeRectangle="781, 883, 123, 48" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' class='psswrdErrorUXFTAButton' aaname='Entendido' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Entendido' /&gt;" Guid="78436e4c-8872-4cfe-9a9b-da1e669ba599" InformativeScreenshot="ade946d654d2c2b3f5fbf8eea7bb67e3.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Número de cliente o tar…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Text="[bancaNetUser]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/MXGCB/JPS/portal/Index.do" DesignTimeRectangle="461, 420, 275, 50" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='textCliente' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='textCliente' tag='INPUT' type='password' class='input-form' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="55a682a0-1d95-44d1-9252-b5ad57163e2d" InformativeScreenshot="ad0bb77fd65fffbd28cf553cd101a358.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="461, 395, 268, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl class='label-03' parentid='preSignonForm' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl class='label-03' parentid='preSignonForm' tag='LABEL' type='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Número de cliente o tarjeta de crédito &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Número de cliente o tarjeta de crédito' /&gt;" Guid="9da47eda-2fd4-4ea4-b5a1-73b01fad90e1" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continuar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/MXGCB/JPS/portal/Index.do" DesignTimeRectangle="461, 516, 275, 48" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='btn-primary Button-Area' aaname='Continuar' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Continuar' /&gt;" Guid="5ea9bc62-f9e9-4278-b11c-5d82a79b02b8" InformativeScreenshot="be7f9aa646989e2976679e2cd70e63d5.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay DisplayName="Delay: wait for Banamex to validate client number before typing password" Duration="[TimeSpan.FromSeconds(3)]" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Contraseña'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" IsPassword="True" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" SecureText="[bancaNetPass]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/MXGCB/apps/loginbnp/flow.action" DesignTimeRectangle="461, 498, 275, 50" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='textFirma' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='textFirma' tag='INPUT' type='password' class='input-form' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6f75b124-bb74-469d-9cce-dd3a9eea608e" InformativeScreenshot="ff4bb58f7f8300c05fb8f256b893f133.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="461, 473, 75, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl class='label-03' parentid='preSignonForm2' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl class='label-03' parentid='preSignonForm2' tag='LABEL' type='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Contraseña &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Contraseña' /&gt;" Guid="74734a4c-9962-4fea-8f40-77dd73aff01b" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Iniciar sesión'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/MXGCB/apps/loginbnp/flow.action" DesignTimeRectangle="461, 566, 275, 48" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='btn-primary btn-login-clave' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Iniciar sesión &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Iniciar sesión' /&gt;" Guid="28839e10-f68f-4f4e-afa1-c1e904da7faa" InformativeScreenshot="e5d6eac73001125261028509cb2ec011.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click 'No por ahora'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/apps/dashboardnew" DesignTimeRectangle="712, 800, 236, 48" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='No por ahora' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='No por ahora' tag='DIV' type='' class='btn background ui-02' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='No por ahora' /&gt;" Guid="9d191325-d056-4fb4-b769-d8cb45386d70" InformativeScreenshot="660b9ba9f37cf2d9a3febdd9bcf2a348.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Costco Banamex - CostoA…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/apps/dashboardnew" DesignTimeRectangle="431, 802, 343, 22" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Costco Banamex - CostoAdicional - MXN' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Costco Banamex - CostoAdicional - MXN' tag='LABEL' type='' class='account-mask-label headline-05' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Costco Banamex - CostoAdicional - MXN' /&gt;" Guid="c8e9f06e-b550-47b5-a29b-33782bbc6511" InformativeScreenshot="9407c5616f829b095b14cb5efa50c350.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay DisplayName="Delay: let account detail page render before exporting" Duration="[TimeSpan.FromSeconds(2)]" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_4" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Exportar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/apps/dashboardnew" DesignTimeRectangle="1341, 769, 75, 18" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Exportar ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Exportar ' tag='A' type='' class='label-03 interactive-01 mr-3' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Exportar' /&gt;" Guid="4cf84436-aac7-46cb-bc39-1076c459e18e" InformativeScreenshot="4b5d090de44f382b17ffefd5c6e44252.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay DisplayName="Delay: let export modal render before opening format dropdown" Duration="[TimeSpan.FromSeconds(2)]" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_5" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Selecciona un formato'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/apps/dashboardnew" DesignTimeRectangle="811, 611, 274, 50" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-modal-basic&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-dropdown&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='DIV' class='select ng-star-inserted' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Selecciona un formato' /&gt;" Guid="4a70a1be-39f6-4ca0-9fb9-fe19f1189321" InformativeScreenshot="831618728ccf2aae2559ed46d0f7ed84.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay DisplayName="Delay: let format dropdown open before selecting option" Duration="[TimeSpan.FromSeconds(1)]" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_6" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Excel - (CSV)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/apps/dashboardnew" DesignTimeRectangle="829, 661, 278, 53" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Excel - (CSV)' class='text' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Excel - (CSV)' class='text' tag='DIV' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Excel - (CSV)' /&gt;" Guid="cf7a8397-f947-464f-a134-ad691f7b86cb" InformativeScreenshot="60f575203c4b56f27d1239b9c76670d7.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continuar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/apps/dashboardnew" DesignTimeRectangle="972, 760, 152, 20" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Continuar ' css-selector='body&amp;gt;app-modal-basic&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Continuar ' type='' class='interactive-01 btn width-btn label-01 ng-star-inserted' tag='DIV' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Continuar' /&gt;" Guid="ca2f75ab-1cd5-4e74-b0e1-fb0c5e916c71" InformativeScreenshot="8d9934d94f20b5af9176dbe4b7275945.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay DisplayName="Delay: let confirmation step render before final export" Duration="[TimeSpan.FromSeconds(1)]" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_7" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Exportar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/apps/dashboardnew" DesignTimeRectangle="972, 720, 152, 20" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Exportar ' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Exportar ' tag='DIV' type='' class='interactive-01 btn width-btn label-01 ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Exportar' /&gt;" Guid="c3d1215d-fff0-495c-aa6a-1cb388f6042a" InformativeScreenshot="c6292f372a2c172d4e7fa230d61a0e20.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay DisplayName="Delay: let the file finish downloading before opening it" Duration="[TimeSpan.FromSeconds(3)]" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_8" />
+            <ui:KillProcess Process="{x:Null}" AppliesTo="All" ContinueOnError="True" DisplayName="Kill Process 'EXCEL' (avoid re-attaching to a stale Excel window)" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="EXCEL" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open file'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a59cd1d0-a83f-48b1-8967-53ad261a18d7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="" DesignTimeRectangle="67, 108, 61, 19" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='Downloads' role='grouping' /&gt;&lt;ctrl name='excel*' role='list item' idx='1' /&gt;&lt;ctrl name='Open file' role='link' /&gt;&lt;ctrl name='Open file' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Downloads' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Downloads' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='excel*' role='list item' idx='1' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Open file' role='link' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Open file' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Open file' /&gt;" Guid="452ca685-4c48-417c-9e5b-fb82ebf37ef1" InformativeScreenshot="93580cb236ffa22377adbbf444868e67.jpg" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAyuSURBVGhD7VkLlJ3TFb5JhCBESZqYs89/70yG6CilQaKla8w9+78zEwnF0AiaaiUsuqTq2VIhRdRS+gxa0VVFa5WgnkU86lGPEq/SatJGiHdFlNBEvq5vn/9m7v1nIhNirXatnrXOmn/u/f9zz95n7/19+/sLhQ8xUCj0Q2F6f7S2rofmjg1Qah1kf/l/oWsAv88/Uzvi810D7P7RowfG5z74mXU6bLNeG+A6xsKnB8CHI+DLB6AUxkIqzUjGfYIbzD/HYYaXWjdDUm5Cko5GsbwrGiufQVMYkr93nY7MY4Mglc3R2D4KXidAdCZE74TTRfZXwlnw4VBI5xjbZM4IM7xY2RLF9HNIyl+G11OQhLMgegIS/bw5palrCEZPGVj73Eceq7wmndshqRwCH74P0Rsh4Sm48Bok/Buir0L0STi9xwxzYSxKe28WwyULOdGt4CrTIHopnP4BovPg+Uz4E5xeZw6QsA9Gpj6GFT56WKHQuh5chyDRMiScCNGrIPoXOH0bTt+HCyvhAuJf/q8rIPqQeVfSMWju2BQN4zdCQ/soSDgMPr0VTl+y++L9cYq+B6dPw+klSMIhKIYd0ThhuOXXh80P23xD61D4dG94nQXRZyG6BKLv1my8t/kORJ+A6PGQ9u1RTBsh6dchegdc+gpcWN7LMysh4V0zTsJcOD0TviOFn9DwoZIcXV0DLNZdOAISfmXhImFZjx+tm6tOZCVEX7fT8noMfPgKnF4Bpy9HT/f6fPWz5XYfw0r0l3DpfnCtslZ5YZ4vtY6A14kQvQVOF1ucd/8QPfgWRN/INsWQehiif4TTR+H1cYg+CtG7IHq1bd7yhWGzao13IGE+RP8K4fpa4xyGFH+Pa6cXoRjGYdSETfL7XO3gzZC0Az7MgoQXcpvnUS+BhMeyDV8Pp9+CD3tB2lvh0y8hSaeY5+lB5oPT52LO1IULNz8TSTgVXi+HhOezE6w94eUQfR6iP4bs6fL7XO3ANuUtIOEoOL3dPNW9IBN0AbxeBxe+He+pHAyvO6Fh/FBLVmlzaNKtrFR6PReeuVC3Br37Blx6K3xlL5TSMfAVhthtcPp6TyN4GuUb0VjZBS2tg/uUCxiZfhISTs3CgAkbF5PwXhYWJ6CUbmOYQNBiueQzzR2CUdpgs6Q7QPTsXgxYDkmJG5cb8DWFIXCdW8OFGXA80bAUTmuSnAakdyMJ+9v6hen98/vtMax8uXQGJGUlqU265ZDwiH3XkHq717xeaYaEfSHpcRD9GkptE5GUp0LCxT0NsLL5lm2qGPaxXGvpGmyozNLrdB5E3+wOWSuxdOTx8OmnWVzy++0x4MpbGD1w+vtc7DKEnocLv8tqOsvrRPhwbKwYeo995/UKeL0SEm7qaUD1NHUBnJ4OadvFymRLy/pwaRtEfw6nf+8OJX0fPjyFRM9EY7w3v98ew7zqyrtmVOGFmrrNUskw+mdMwvCMVREX/gGnr5jn4ncvxuoS5kL0Xkh4tUftt/vSm+D0YPu90VMGIhnXBKeTIfqAOSueAqvVQ/DhZAO3Ql8MYBltLA9HMewLH+ZAdFHP5FrtJAYsgtdr4dNjLax4bWvU1HuCViwIZ1gIDk83xtAJmxgF8Tx5O23e8yikfD4aKsFCu1BYcw5woHDlACQdLRYe5C2s+2syIpZbcqIb4HRqzI1Kc7zmZ/zO7sme0bch4bdWgumwAvqh1F6C199AUp7kC/DlC+DCOFKS/B57HUa8iMKlyYMwstIcY1wvgdM/w+m/MjCq93iVy1johGssf4jixoHGbxTZqyH6NVkOLcsIID08D5KeY1WL9zKMRH9kwMgynuhBKHWO6GPoFPphWOtg4y5JJcDrkRA9H05nZySO8fxi3UnEKkVyxridDZ8eCgnbkYStWpeEjJ9JOgkNxjivgguPGx54XRDROkxDUtkfLp1izJSILukcJKmy6anfaW7Ezmj8RmjuGJbV74Mg+jMrmUxiKV8Nz4oRpsOHmy1hI0oug+hzGd04Ba6yh8Vp6/Q68mWO4Wf0sGEMUV7PtWQl6XPmmLkZUyXNJrVYDBduhYQD0dhWtHWJOwZmNVhgPJ0bZ/JI5ai4cYKVQf0SAxYfSMoON3QtppOs1MVK8wS8XoBEu6xGc52WrvVXLd7LiOHZOcLqvhE1ni7pinEqztdiaBmjpSF3GcV26XctDItpW7XPqFkw3QZJOMxi1IWFcEZrI7OMRvzEvNtS2Ry+vLOdhOhCa2DoScZ4H3rh6rAToScbOnaMPMdYbp6ZVq8Jnq9DAvHkZkh6Fnx5d2w9fqhVJGuqk/bdbCNsKGJMVxdZkZGsqWa17LohitqZgQ29RZCbC6nskm8f1zSsfSTpY/jVVaZeJ/dBI5fCBbLdM4yGMDcswdgBuXBfJFk11cWOMMyB19TyZPt0Y/jwDTjLDW6e98yzNpDh0xeYzwaSyrbw+gs4XbjG8lw74x7vsz2zUEC6NoTo0ZG21tVoAglj/Awke4y2UGN7yH44eiJrXMLfIkpWPsumPb/R/LBQY3/N2m6l0hA321wV5a0yPWunX3VUvWOJ4sexKMQT8AbfD+VI1ApI+hgSPc0gvGoAy2pctLrgq3B6g1WuPjQd9ns8fh9mQMKCms0RS1h55sLrmSimJ8PrbDhSlR4ntBRJemI0IEodB0ZZhHx8rQ1YFslXehKpdX7D+WFhWCq3IwkXGq2u/l70/h1o0CNNYjF2mh4Q++MePXTegLCvdVYS2IvWGKBPQsozrWExMGpzWZdWyy55pO9aaDExC4X+MUwmD0JrNnmdJXk0gCw2XJblGMOWCgd7hJlW7zs6NjCKbeBHAK1LcuIPCeY0hn8EMcYvubgnXVhlAHn7Qki4DA1lNXR2Yf+oB9X1CJwrLCEpozC+mdDJHtua4sbJa37Gise/UZ5hL0z2uthouE/PM4CrSpS+bSQaKAYE8rAaNhyoWswxKs+cM281dhajYGVJ1V2HmfESHoRUTsiUhdlw4Zm6xKsaSxRNKtOiEJB+FUl6Eop6ik1e8zNjtzoZztgpk/XB2DeXj4+9wJ7OTisSuonmvLreIKyED/ORpOehse0LsYwSiamERQWCTXrN5ux6qX0u4e5Ms8lrQhFsomG3QfRxOFaP8CK8vmTT+BPxxPoGUg96/lkTAxjvDBsCWxSJh5kwQPUuon29DMOTS/RsYwXRgEI/NI/ZNGqT4ddwlge1HuY1k7tnUxI3z3wges+FD9dG4KszsPcpOh+SUpHYyUKGc0R7CUl5v0zNYEOUBzga8EBM7j3dKk5kidcUEqvnkWB1N/I2qxJgfjHKK6bAXQ7R0zIhgNyFBudpd96AxZD0YmvWm8pbW/4wzMh7iC09Nm+UnarFFdan5JHfVGEibiRzS2o2HQHLpn1GTZMVimWP2DHTeBKTjuXWEpT0IrxZr3/mTiW2npQQz0VSPsmkGlP/rDL1pgCS3N0Fr9+kwl23eTOA2d8QEoh+ES6cl6nPj1ncRsrMqvFAJFThevhwd6TAOgu+srtVH0ok5EVUJtgGSrgBEu6HN/W5pkQbJSAVn59R9VnwOr+HkdXNR8/faxHCXn1Y1+D8/mMusMxRlbOuKBDc2NRTCqc0eKEtkOjBKJYnGZJ6vcMqF3UivqggTSbY0RjfMdIKQxJONDriKbsb6HVXFCsQ5owZEL09ho713y9nQgDbU9KJO6PkEsZaw7Wmvjir12I13F5GtO9mMcp6zlxhqPjyMWZApBKPIEl/aKfXWB5ua7R0rW+yfDF8ygqE6A8ix6kLj7eMqlNakUp7PDnmUXqRyY2JXgqfnmMvTdho2ZufvlH21Q47KXs9VD4a3uhH9Kro01nvPNVyoilsZ5svjm9Ec2VbU+nyBkSp/jRDaxYS6lFOdzAxt1SmxrofkrAbtmwrrqlR6vMwAwxoyuyXeezVDb2THT1jmeLW6Vn4HN4NXrkQsu4rnBqpBt/ijB5oVIOeZsNCgxiSzM+P6vnqiAZ0jjBZ0OvVvahurFYEsIch1mPMNQHLlLhcElPpIJXvAw1fp8O8Uqy2g2zwVyO1VEtu/XuBaviQStxiNHxdhUdfhyl3VAgk8LURgY81Pw90HzAtZxbFZA2VtXr7sq6GaZkR+ChCsa3k25o+GGFvX0gSiSOH2ZvLtWhF19nA9On948s79hLhp5mewyoTSVyUSBgmnC93Ezur8/dDwveMEqxJtPo4hwmyZLJ8e2J1PBxoUJ9UvgPP9wvhIpu85mc2Sa3Lk7Ieum9658c1Yumb3t/aTdP4WwebmEsA9O07o1gZZ5PX1eaGApgJufXq3X/FMDAiAhOYolTJGr6pXVfbSwOtPgi1/x//I+M/2wtnASqzSF0AAAAASUVORK5CYII=" InformativeScreenshot="776b25332bb0e22e17eed9a5f0338e5a.jpg" Selector="&lt;html app='msedge.exe' title='*Banamex*' /&gt;" Url="https://bancanet.banamex.com" Version="V3">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <Delay DisplayName="Delay: let Excel open the downloaded file before attaching" Duration="[TimeSpan.FromSeconds(3)]" sap:VirtualizedContainerService.HintSize="516,123" sap2010:WorkflowViewState.IdRef="Delay_3" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="xlsx - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="516,3398" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" OpenMode="Never" ScopeGuid="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="471,3142" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click 'Habilitar edición'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,194" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="EVycxl91nECtmSWI5Zjb2g" DesignTimeRectangle="1214, 124, 157, 39" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Barra de herramientas Business Bar' /&gt;&lt;uia cls='NetUIElement' name='Vista protegida' /&gt;&lt;uia cls='NetUISimpleButton' name='Habilitar edición' /&gt;" Guid="962dbe0a-8839-457d-9bbf-0121859bb55b" InformativeScreenshot="84919f8c10bbe42a81572618ddeadc58.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/2pJbvFWzSUKhb2cxQ5J0Qw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='*Vista protegida*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts: Ctrl+Home (scroll to A1 so F1 stays reachable)" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,329" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" InteractionMode="HardwareEvents" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Shortcuts="[d(hk)][d(ctrl)][k(Home)][u(ctrl)][u(hk)]" Version="V5">
+              <uix:NKeyboardShortcuts.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='*xlsx - Excel*' /&gt;" Guid="04fc07d0-a9f8-4162-84f0-979a6ad5c9e6" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NKeyboardShortcuts.Target>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Column D Header" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,194" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="XpaTyFUWikudcnXpDZk6Qg" DesignTimeRectangle="438, 364, 128, 31" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='D' role='Encabezado de columna' /&gt;" Guid="9fa459e7-9ae1-4527-beda-8de387e15329" InformativeScreenshot="ec9eb76f856ded5949e7e743e351e55b.jpg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='*xlsx - Excel*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts: Ctrl+B (Buscar y reemplazar)" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,329" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Shortcuts="[d(hk)][d(ctrl)]b[u(ctrl)][u(hk)]" Version="V5">
+              <uix:NKeyboardShortcuts.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='D' role='Encabezado de columna' /&gt;" Guid="b4c71d3f-f2f1-4f5d-a915-2b43fc5a9397" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='*xlsx - Excel*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NKeyboardShortcuts.Target>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Reemplazar' tab" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,194" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="NmP-gEfVTU2gOfuj9x4MIg" DesignTimeRectangle="101, 58, 109, 31" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia role='tab' /&gt;&lt;uia name='Reemplazar' role='tab item' /&gt;" Guid="12158ad9-cb43-487c-9463-e03837804b01" InformativeScreenshot="883afd6c9a4587b85e94746587087bd8.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/4M4TcqGYxkGon1G0qUJfIQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Buscar y reemplazar' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type '$' into 'Buscar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,246" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Text="$" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="Hq-gQPCr8UaH9qfMTqwnww" DesignTimeRectangle="162, 105, 224, 32" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia name='Buscar:' role='edit' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="d1cab49c-afd0-4fe4-ab43-d958e82d50ba" InformativeScreenshot="93c6393fa3908e5cacca2ba02cab6114.jpg" IsResponsive="True" Reference="T_zKmh_Q10Wf4cjN8IlDMA/lS7vGKMO3UuoG1tsLFgYfg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Buscar y reemplazar' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="34, 110, 114, 21" ElementType="Text" FuzzySelectorArgument="&lt;uia name='Buscar:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Buscar:' /&gt;" Guid="f058efa0-2705-4be5-a10a-fc3ef2c27928" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Clear 'Reemplazar con'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,246" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="SameAsCard" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="n4LVhgdqnUOEBilselBIvQ" DesignTimeRectangle="162, 142, 224, 32" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia name='Reemplazar con:' role='edit' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="467fcd54-f868-491f-a917-3276b05bba8a" InformativeScreenshot="2adfd36a466a017f604ec06aab827868.jpg" IsResponsive="True" Reference="T_zKmh_Q10Wf4cjN8IlDMA/Pm75ya4TFUSG3LbsmL4sRw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Buscar y reemplazar' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="34, 147, 114, 21" ElementType="Text" FuzzySelectorArgument="&lt;uia name='Reemplazar con:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Reemplazar con:' /&gt;" Guid="6f214d82-7b8c-4fe5-acf1-2f01bb2ad4a5" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <Literal x:TypeArguments="x:String" Value="" />
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Reemplazar todos'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,194" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="aE-4geQsyEKmE1N4Z4-F2Q" DesignTimeRectangle="46, 330, 153, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Reemplazar todos' role='button' /&gt;" Guid="c3195661-05c6-46e0-9e8c-02d4fbd4ddb1" InformativeScreenshot="a3760f1eae7c1c0e76c2067f766033ff.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/QCkbHL9kHUK31rJ-r09aTw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Buscar y reemplazar' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Aceptar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,194" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="DN1Aj6TKNU67qb_otbXlCw" DesignTimeRectangle="419, 195, 96, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='2' cls='NetUIButton' name='Aceptar' /&gt;" Guid="001a22ff-f407-41b9-aed8-799461a2de44" InformativeScreenshot="fc058ad1b84708a841913e3ea4da17ba.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/50oW5pGlWka8gtpm6B-Oxw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='NUIDialog' title='Microsoft Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cerrar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,194" sap2010:WorkflowViewState.IdRef="NClick_22" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="CEDqMckP1UqFEaz1xdAE7w" DesignTimeRectangle="646, 330, 114, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Cerrar' role='button' /&gt;" Guid="e07efbad-830c-46ba-a2aa-e2a7db46c09e" InformativeScreenshot="eec6ab9f65841e252954b9aad02604d4.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/wlTf1LbfjUO7RQCUs0tFzA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Buscar y reemplazar' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'F1'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,194" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="yOh4tGCv50mkP0zKwZRLWg" DesignTimeRectangle="694, 395, 128, 31" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Cuadrícula' /&gt;&lt;uia automationid='F1' cls='XLSpreadsheetCell' name='F1' tableRow='1' /&gt;" Guid="8faeb1f3-dd81-4991-bd67-66a26b078059" InformativeScreenshot="672e4bf2ecb6be856e7789dbe9113627.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/_WSwQoyviUOOcOXPY7aT5Q" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='excel (23).xlsx - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'EXCEL'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,194" sap2010:WorkflowViewState.IdRef="NClick_28" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="Lv4S8gI-DEmyS1GP3BO6zw" DesignTimeRectangle="339, 278, 1592, 86" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='EXCEL&amp;lt;' /&gt;" Guid="d9659990-201e-47ee-ba40-fde61f9a716c" InformativeScreenshot="ea8adac2b726bc00abe60d0e89e72f31.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/OC2sywQ8wEKSwshfkczNog" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='excel (23).xlsx - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Write SUM formula into F1" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InteractionMode="SameAsCard" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" Text="=SUMA(D:D)[k(enter)]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="O18vUqnLG0KaIJp8iccGSA" DesignTimeRectangle="694, 395, 128, 31" DesignTimeScaleFactor="1.5" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='F1' role='item' /&gt;" Guid="978e6e7b-2694-42ec-8882-b6423e053d8a" InformativeScreenshot="0a4b9801211e7155410673a9b0623eaa.jpg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='*xlsx - Excel*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NGetText DelayBefore="1" DisplayName="Get Text 'Total Cell F1 Value'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="646f6b7b-cf1c-454f-af4b-d2e2c49e248a" TextString="[totalCompras]" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable ContentHash="WT8N5FByNE-JsRJb7oSIGQ" DesignTimeRectangle="694, 395, 128, 31" DesignTimeScaleFactor="1.5" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='F1' role='item' /&gt;" Guid="fb90ad66-752d-4f10-914d-89ad948955dd" InformativeScreenshot="0a4b9801211e7155410673a9b0623eaa.jpg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='*xlsx - Excel*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" Arguments="c:\users\ricardo.rosales\downloads\excel (11).xlsx" ContentHash="CPsfo0HC_UazgpTnN055Jw" FilePath="C:\Program Files\Microsoft Office\root\Office16\excel.exe" InformativeScreenshot="9583642387a81a04b8761b2b57b010d7.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/rjlVg3b5LkygtM06VwL4uA" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='*xlsx*Excel*' /&gt;" Version="V3">
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <If Condition="[Not String.IsNullOrWhiteSpace(totalCompras) AndAlso IsNumeric(totalCompras)]" DisplayName="If total was computed correctly" sap:VirtualizedContainerService.HintSize="516,170" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence DisplayName="Then" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: *WhatsApp*" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="517,880" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" IsDisplayNameAuto="True" OpenMode="IfNotOpen" ScopeGuid="0e2d5a1e-6f0b-4d0f-9c9f-8b8f6d2a5a11" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,685" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Valeria Artemyeva' chat" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0e2d5a1e-6f0b-4d0f-9c9f-8b8f6d2a5a11" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="0rS0-vGnVUu2YCOxI__Vtg" DesignTimeRectangle="245, 977, 567, 36" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl data-testid='chat-list' tag='DIV' /&gt;&lt;webctrl aria-label='Chat list' aria-role='grid' tag='DIV' /&gt;&lt;webctrl aria-role='gridcell' idx='8' parentid='pane-side' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl data-testid='chat-list' tag='DIV' matching:data-testid='fuzzy' fuzzylevel:data-testid='0.0' /&gt;&lt;webctrl aria-label='Chat list' aria-role='grid' tag='DIV' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' /&gt;&lt;webctrl aria-role='gridcell' matching:aria-role='fuzzy' parentid='pane-side' tag='DIV' fuzzylevel:aria-role='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;" Guid="40fc1a9a-d7c1-4567-823b-b9d6a7dc42e6" InformativeScreenshot="51069e72a0d9bd45a6e04ca693e05a80.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*WhatsApp*' url='https://web.whatsapp.com/*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="245, 977, 193, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Valeria Artemyeva ' parentid='pane-side' tag='SPAN' visibleinnertext='Valeria Artemyeva' type='' class='x1iyjqo2 x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft x1rg5ohu x1jchvi3 xjb2p0i xo1l8bm x17mssa0 x1ic7a3i xnpuxes' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:visibleinnertext='fuzzy' fuzzylevel:visibleinnertext='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:text='Valeria Artemyeva' /&gt;" Guid="cc6f2263-3a86-4641-94a8-b29a2253c4dc" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type total into message box" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="SameAsCard" ScopeIdentifier="0e2d5a1e-6f0b-4d0f-9c9f-8b8f6d2a5a11" Text="[&quot;Total de gastos (columna D): $&quot; &amp; totalCompras]" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable ContentHash="CgTxn_65UUSZstRVn70TzA" DesignTimeRectangle="1024, 982, 786, 34" DesignTimeScaleFactor="1.5" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl data-testid='conversation-compose-box-input' tag='DIV' /&gt;" Guid="de0d035a-20f4-4b03-89ee-c66650b4e375" InformativeScreenshot="6a332aa2bd335b7291df9bd8bc7b7552.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*WhatsApp*' url='https://web.whatsapp.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0e2d5a1e-6f0b-4d0f-9c9f-8b8f6d2a5a11" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="nlMz0AFV0keGan0jip66bw" DesignTimeRectangle="1818, 969, 60, 60" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Send' class='*html-button*' tag='BUTTON' /&gt;" Guid="7650d609-acad-48a0-91fa-23e8d247f7a6" InformativeScreenshot="c295b9df1cc359ca9f12c0e26e0a1347.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*WhatsApp*' url='https://web.whatsapp.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" InformativeScreenshot="afa0eaf358fa72f63e5a9015cd574193.jpg" Selector="&lt;html app='msedge.exe' title='*WhatsApp*' url='https://web.whatsapp.com/*' /&gt;" Url="https://web.whatsapp.com/" Version="V3" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <ui:LogMessage DisplayName="Log Message" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[$&quot;No se pudo calcular el total de gastos (columna D); no se envió el mensaje de WhatsApp. Valor leído de F1: '{totalCompras}'&quot;]" />
+        </Sequence>
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NmP-gEfVTU2gOfuj9x4MIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="101, 58, 109, 31" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia role='tab' /&gt;&lt;uia name='Reemplazar' role='tab item' /&gt;" Guid="12158ad9-cb43-487c-9463-e03837804b01" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Buscar y reemplazar' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="883afd6c9a4587b85e94746587087bd8.jpg" xmlns="">0pcHfXUkIQ0GGgD2IJusvuQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

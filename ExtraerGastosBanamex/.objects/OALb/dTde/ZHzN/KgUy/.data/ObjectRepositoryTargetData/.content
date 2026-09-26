@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="O18vUqnLG0KaIJp8iccGSA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="694, 395, 128, 31" DesignTimeScaleFactor="1.5" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='F1' role='item' /&gt;" Guid="978e6e7b-2694-42ec-8882-b6423e053d8a" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='*xlsx*Excel*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0a4b9801211e7155410673a9b0623eaa.jpg" xmlns="">0ivwDBh7c7UOiDOk8Bxy9bQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
