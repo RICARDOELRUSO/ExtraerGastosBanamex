@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -41,6 +41,7 @@
       <x:String>UiPath.Credentials.Activities</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>UiPath.Shared.Telemetry</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -88,6 +89,14 @@
       <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
       <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -96,7 +105,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="820,7855" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="820,7978" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="totalCompras" />
     </Sequence.Variables>
@@ -105,19 +114,25 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: BancaNet | Banamex.com" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,3138" sap2010:WorkflowViewState.IdRef="NApplicationCard_10" ScopeGuid="d8306ecf-8f3a-407e-8df2-5aec910d4915" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: BancaNet | Banamex.com" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,3261" sap2010:WorkflowViewState.IdRef="NApplicationCard_10" ScopeGuid="d8306ecf-8f3a-407e-8df2-5aec910d4915" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2934" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,3057" sap2010:WorkflowViewState.IdRef="Sequence_14">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="ss:SecureString" Name="bancaNetPass" />
+              <Variable x:TypeArguments="x:String" Name="bancaNetUser" />
+              <Variable x:TypeArguments="x:String" Name="rutaExcelDescargado" />
+            </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Número de cliente o tar…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="d8306ecf-8f3a-407e-8df2-5aec910d4915" Text="61472814" Version="V5">
+            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="BancaNetBanamex" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2" Password="[bancaNetPass]" Username="[bancaNetUser]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Número de cliente o tar…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="d8306ecf-8f3a-407e-8df2-5aec910d4915" Text="[bancaNetUser]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/MXGCB/JPS/portal/Index.do" ContentHash="Crb4pCo_gUiImHRReaV-Tw" DesignTimeRectangle="461, 420, 275, 50" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='textCliente' tag='INPUT' type='password' class='input-form' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="44b2b660-9469-46df-8425-649937dd6316" InformativeScreenshot="b602b583d4ebe3c921d7f69f8f96ad0b.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/m_OJOUBmAUWQRbYwY-U93w" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='1790395445598' title='BancaNet | Banamex.com' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -150,7 +165,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Contraseña'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="d8306ecf-8f3a-407e-8df2-5aec910d4915" Text="SalmoS73" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Contraseña'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="d8306ecf-8f3a-407e-8df2-5aec910d4915" SecureText="[bancaNetPass]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/MXGCB/apps/loginbnp/flow.action" ContentHash="3ILpXBxRtkWtmgYcgCArdg" DesignTimeRectangle="461, 498, 275, 50" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='textFirma' tag='INPUT' type='password' class='input-form' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b906026e-8aec-490e-a131-affcc7aa1626" InformativeScreenshot="94ffa200368c75af5fbfafed1c8fcfeb.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/WkXc3pDDBEGj2s-wnxz-Eg" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='1790395445598' title='BancaNet | Banamex.com' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -223,12 +238,19 @@
                 <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/apps/dashboardnew" ContentHash="pzqgwAB0Q0OSl5H0yaJeSA" DesignTimeRectangle="938, 720, 60, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Aceptar ' tag='DIV' /&gt;" Guid="0d65fbc8-93e8-483b-ac97-4263c1ded4b3" InformativeScreenshot="4bbe3b53120edb3e8f1a717b1bc173d1.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/oCbUPpS62kaEB1PXxQ21Wg" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='1790436763823' title='BancaNet | Banamex.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" ScopeIdentifier="d8306ecf-8f3a-407e-8df2-5aec910d4915" Shortcuts="[d(hk)][d(ctrl)]j[u(ctrl)][u(hk)]" Version="V5" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'excel (13).xlsx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_42" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d8306ecf-8f3a-407e-8df2-5aec910d4915" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="bancanet.banamex.com/MXGCB/apps/logout/flow.action" ContentHash="qhO1jr5C5k-7TVUjd1o4Yg" DesignTimeRectangle="67, 78, 105, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='Downloads' role='grouping' /&gt;&lt;ctrl name='excel (13).xlsx' role='list item' /&gt;&lt;ctrl name='excel (13).xlsx' role='text' /&gt;" Guid="1dfb6c31-e5a8-45a8-9da7-b69f45bde731" InformativeScreenshot="81e91beb540d7fc4ce44400431984e72.jpg" Reference="T_zKmh_Q10Wf4cjN8IlDMA/fbYvvASKe0yaWBGNN5I5qg" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
+            <Assign x:TypeArguments="x:String" DisplayName="Assign: ruta del Excel descargado más reciente" sap:VirtualizedContainerService.HintSize="416,89">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <VisualBasicReference x:TypeArguments="x:String" ExpressionText="rutaExcelDescargado" />
+                </OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">
+                  <VisualBasicValue x:TypeArguments="x:String" ExpressionText="New DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) &amp; &quot;\Downloads&quot;).GetFiles(&quot;excel*.xlsx&quot;).OrderByDescending(Function(f) f.LastWriteTime).First().FullName" />
+                </InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:StartProcess Arguments="{x:Null}" DisplayName="Start Process: abrir el Excel descargado más reciente" FileName="[rutaExcelDescargado]" WorkingDirectory="{x:Null}" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="StartProcess_1" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>

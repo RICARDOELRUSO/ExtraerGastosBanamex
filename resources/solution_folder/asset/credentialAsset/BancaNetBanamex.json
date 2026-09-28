@@ -1,0 +1,39 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "BancaNetBanamex",
+    "kind": "asset",
+    "type": "credentialAsset",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Credential",
+      "credentialStore": {
+        "key": "66e41d36-3776-42cb-88ff-c335ff18d07e",
+        "name": "Orchestrator Database",
+        "folderKey": null,
+        "kind": null,
+        "lookupStrategy": null,
+        "info": null
+      },
+      "credentialUserName": "61472814",
+      "credentialPassword": null,
+      "externalName": null,
+      "name": "BancaNetBanamex",
+      "description": null,
+      "scope": "Global",
+      "accountMachineValues": null,
+      "tags": []
+    },
+    "locks": [],
+    "key": "a5d1321f-9df4-4dcb-879a-db0b552038a6"
+  }
+}
